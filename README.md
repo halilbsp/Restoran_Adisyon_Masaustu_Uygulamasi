@@ -3,25 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Qt Designer](https://img.shields.io/badge/Qt-Designer-green.svg)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-orange.svg)
-![Durum](https://img.shields.io/badge/Durum-Tamamlandı-success.svg)
 
 Bu proje, Python ve Qt Designer kullanılarak geliştirilmiş, MySQL veritabanı altyapısına sahip kapsamlı bir **restoran adisyon ve masa yönetim sistemidir**. İşletmelerin sipariş, stok, masa ve müşteri yönetimini tek bir masaüstü uygulamasından kolayca yapabilmesini sağlar.
-
----
-
-## 📸 Ekran Görüntüleri
-
-| **Ana Sayfa (Dashboard)** | **Masa Yönetimi** |
-|:---:|:---:|
-| ![Ana Sayfa](resim_yolu/anasayfa.png) | ![Masalar](resim_yolu/masalar.png) |
-| *Modern ve şık yönetim paneli* | *Anlık masa doluluk durumu takibi* |
-
-| **Sipariş Ekranı** | **Raporlar** |
-|:---:|:---:|
-| ![Sipariş](resim_yolu/siparis.png) | ![Raporlar](resim_yolu/raporlar.png) |
-| *Hızlı ürün seçimi ve hesaplama* | *Günlük, haftalık ciro analizleri* |
-
-*(Not: Bu projeyi indirdiğinizde ekran görüntüleri klasörünü kontrol ediniz.)*
 
 ---
 
@@ -53,11 +36,13 @@ Uygulama aşağıdaki temel modülleri içermektedir:
 Projeyi bilgisayarınızda çalıştırmak için:
 
 1.  **Projeyi Klonlayın:**
+    ```bash
     git clone [https://github.com/KULLANICI_ADINIZ/restoran-adisyon-uygulamasi.git](https://github.com/KULLANICI_ADINIZ/restoran-adisyon-uygulamasi.git)
     cd restoran-adisyon-uygulamasi
     ```
 
 2.  **Gerekli Kütüphaneleri Yükleyin:**
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -67,9 +52,9 @@ Projeyi bilgisayarınızda çalıştırmak için:
     * `main.py` (veya veritabanı bağlantı dosyanız) içerisindeki kullanıcı adı ve şifre alanlarını kendi yerel sunucunuza göre düzenleyin.
 
 4.  **Uygulamayı Başlatın:**
+    ```bash
     python main.py
     ```
-
 ---
 
 ## 📢 Teşekkür ve Atıf (Credits)
